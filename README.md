@@ -1,6 +1,6 @@
 # GTSRB-Traffic Sign Recognition
 
-![](C:\Users\ThinkPad\Desktop\CMT309 coursework2\classes.jpg)
+![][classes.jpg]
 
 **Google.colab**
 
@@ -455,34 +455,7 @@ model_process(batch_size=batch_size,epoch=epoch)
 
 You will see:
 
-BPNN:
-Train on 31367 samples, validate on 7842 samples
-Epoch 1/5
-31367/31367 [==============================] - 15s 483us/sample - loss: 0.3748 - acc: 0.8935 - val_loss: 0.1630 - val_acc: 0.9522 - lr: 0.0100
-Epoch 2/5
-31367/31367 [==============================] - 13s 412us/sample - loss: 0.0803 - acc: 0.9756 - val_loss: 0.0857 - val_acc: 0.9733 - lr: 0.0100
-Epoch 3/5
-31367/31367 [==============================] - 13s 414us/sample - loss: 0.0451 - acc: 0.9870 - val_loss: 0.0615 - val_acc: 0.9828 - lr: 0.0100
-Epoch 4/5
-31367/31367 [==============================] - 13s 415us/sample - loss: 0.0300 - acc: 0.9913 - val_loss: 0.0580 - val_acc: 0.9839 - lr: 0.0100
-Epoch 5/5
-31367/31367 [==============================] - 12s 396us/sample - loss: 0.0148 - acc: 0.9958 - val_loss: 0.0704 - val_acc: 0.9800 - lr: 0.0100
-Accuracy on development set: 0.9990688184670499
-CNN: {'Conv_Layer': (32, 3), 'Conv_Overlap': False, 'Dropout_Conv': -1, 'Dense': (512, 1), 'Dropout_Dense': -1, 'BN': False}
-Train on 31367 samples, validate on 7842 samples
-Epoch 1/5
-31367/31367 [==============================] - 7s 233us/sample - loss: 0.5754 - acc: 0.8445 - val_loss: 0.1103 - val_acc: 0.9688 - lr: 0.0100
-Epoch 2/5
-31367/31367 [==============================] - 6s 183us/sample - loss: 0.0430 - acc: 0.9874 - val_loss: 0.0354 - val_acc: 0.9907 - lr: 0.0100
-Epoch 3/5
-31367/31367 [==============================] - 6s 183us/sample - loss: 0.0174 - acc: 0.9950 - val_loss: 0.0448 - val_acc: 0.9864 - lr: 0.0100
-Epoch 4/5
-31367/31367 [==============================] - 6s 180us/sample - loss: 0.0117 - acc: 0.9968 - val_loss: 0.0451 - val_acc: 0.9879 - lr: 0.0100
-Epoch 5/5
-31367/31367 [==============================] - 6s 190us/sample - loss: 0.0074 - acc: 0.9977 - val_loss: 0.0335 - val_acc: 0.9913 - lr: 0.0100
-Accuracy on development set: 0.9995966857054738
-
-............
+![][1587735924(1).jpg]
 
 The BPNN model has been implemented with four dense layers with the dimension of 512
 along with the batch normalisation after each layer. The model achieved an accuracy of
@@ -511,8 +484,11 @@ model=cnn_model(parameter_list)
 model_process(batch_size=batch_size,epoch=epoch,test=True) 
 ```
 Accuracy on test set: 0.9992450606713436
+
 precision on test set: 0.9804020331235772
+
 recall on test set: 0.9768294996861732
+
 f1 on test set: 0.9774262802846536
 
 **Data Augmentation**
