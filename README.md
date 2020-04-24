@@ -1,6 +1,6 @@
 # GTSRB-Traffic Sign Recognition
 
-![][classes.jpg]
+![](https://github.com/Fcam34/GTSRB-CNN/blob/master/classes.jpg)
 
 **Google.colab**
 
@@ -43,18 +43,8 @@ The dataset features 43 different signs under various sizes, lighting conditions
 
 Download ‘Images and annotations’ for training and test set from GTSRB website and extract them into a folder. Also download ‘Extended annotations including class ids’ file for test set. Organize these files so that directory structure looks like this:
 
-GTSRB
-├── GT-final_test.csv
-├── Final_Test
-│   └── Images
-└── Final_Training
-    └── Images
-        ├── 00000
-        ├── 00001
-        ├── ...
-        ├── 00041
-        └── 00042
-        
+![](https://github.com/Fcam34/GTSRB-CNN/blob/master/1587736298(1).jpg)
+
 **Preprocessing** 
 
 Histogram equalization
@@ -455,7 +445,7 @@ model_process(batch_size=batch_size,epoch=epoch)
 
 You will see:
 
-![][1587735924(1).jpg]
+![](https://github.com/Fcam34/GTSRB-CNN/blob/master/1587735924(1).jpg)
 
 The BPNN model has been implemented with four dense layers with the dimension of 512
 along with the batch normalisation after each layer. The model achieved an accuracy of
